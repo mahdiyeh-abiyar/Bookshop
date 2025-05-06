@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>login Form</title>
+</head>
+<body dir="rtl">
+    <main class="flex justify-center items-center min-h-screen flex-col bg-[#F2F2F2]">
+
+        <form class="w-full max-w-md p-8 rounded-2xl flex flex-col items-center bg-white">
+            <img src="./assets/Union.svg" alt="">
+            <h1 class="text-xl font-semibold m-8 mb-16">فرم ورود</h1>
+
+            <div class="input-group w-full">
+                <input id="userName" type="text" placeholder="نام کاربری" 
+                class="bg-[#F2F2F2] w-full p-3 rounded-2xl mb-4 border border-transparent  transition-all">
+                <div class="error hidden"></div>
+            </div>
+            
+            <div class="input-group w-full">
+                <input id="password" type="password" placeholder="رمز عبور" 
+                class="bg-[#F2F2F2] w-full p-3 rounded-2xl mb-4  border-transparent  transition-all">
+                <div class="error hidden"></div>            
+            </div>
+        
+            <button type="submit" id="signinbtn" class="bg-[#8E51FF] text-white w-full p-3 rounded-2xl mt-4 mb-5 cursor-pointer">ورود </button>
+            
+            <a href="#" class="text-sm text-right text-blue-500">ایجاد حساب کاربری</a>
+
+            <div class="loading hidden">
+                در حال ورود...
+            </div>
+        </form>
+
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
