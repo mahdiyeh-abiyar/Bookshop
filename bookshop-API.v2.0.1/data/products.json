@@ -14,5 +14,205 @@
     "author": "string",
     "price": 0,
     "quantity": 0
+  },
+  {
+    "id": "3c0ca8fe-e0b5-493a-898a-0e04b8c8d3b9",
+    "title": "vvcvc",
+    "summary": "vcvcvc",
+    "author": "vcvcvc",
+    "price": "545",
+    "quantity": "2"
+  },
+  {
+    "id": "ac9714bf-4488-4fef-a261-9c19156a9ff5",
+    "title": "کوری",
+    "summary": "چرت",
+    "author": "ژوزه",
+    "price": "78",
+    "quantity": "54"
+  },
+  {
+    "id": "c013f525-efe1-4edf-9b83-698a6a0ae268",
+    "title": "ط دنظطزد ن",
+    "summary": "    const bookData = {\n",
+    "author": "ندطنزظم",
+    "price": "555",
+    "quantity": "1255"
+  },
+  {
+    "id": "a20ac42c-6086-42bb-a12c-f3b044c9e848",
+    "title": "knkk",
+    "summary": "knknlk",
+    "author": "bnmknm,n",
+    "price": "465",
+    "quantity": "25255"
+  },
+  {
+    "id": "aa16f4f4-0b2c-498b-9a3f-24237431e5fe",
+    "title": "غلیاقاغی",
+    "summary": "یایاغاغ",
+    "author": "اغیاغیاغیایغ",
+    "price": "4454",
+    "quantity": "4444"
+  },
+  {
+    "id": "20d10303-9e47-489e-ba4e-9ce17480a605",
+    "title": "ممذرمذرم",
+    "summary": "یممیمی",
+    "author": "مزمبمب",
+    "price": "54",
+    "quantity": "11"
+  },
+  {
+    "id": "8a589aa0-9adc-4c71-9bff-1dedcd62b1e5",
+    "title": "juyujy",
+    "summary": "tuju",
+    "author": "tutj",
+    "price": "55",
+    "quantity": "555"
+  },
+  {
+    "id": "dd2e79a7-f793-44a7-bc17-0926f23d22d0",
+    "title": "m mmm ",
+    "summary": "vvv",
+    "author": "vv",
+    "price": "5555",
+    "quantity": "666"
+  },
+  {
+    "id": "db57a9f6-53a8-43d6-8b32-d35d6dbf1304",
+    "title": "hh",
+    "summary": "hh\\\n\\\n\n",
+    "author": "hh",
+    "price": "55",
+    "quantity": "44"
+  },
+  {
+    "id": "48666afd-8b68-4f5c-bc86-fbd7a26c5209",
+    "title": "console.log(elements.bookTable); // باید عنصر جدول را نشان دهد",
+    "summary": "console.log(elements.bookTable); // باید عنصر جدول را نشان دهد",
+    "author": "console.log(elements.bookTable); // باید عنصر جدول را نشان دهد",
+    "price": "44",
+    "quantity": "44"
+  },
+  {
+    "id": "985dfb19-ddea-47e7-9133-4efab5fc7e40",
+    "title": "tableBody.appendChild(tr);          console.log('ردیف اضافه شد:', tr);",
+    "summary": "tableBody.appendChild(tr);\n    \n    console.log('ردیف اضافه شد:', tr);",
+    "author": "tableBody.appendChild(tr);          console.log('ردیف اضافه شد:', tr);",
+    "price": "44",
+    "quantity": "655"
+  },
+  {
+    "id": "4774fcea-d496-432c-ac67-71d53aef7df0",
+    "title": "نانامام",
+    "summary": "function addBookToTable(book) {\n    console.log('کتاب دریافتی:', book);\n    \n    // فقط یک بار ردیف را اضافه می‌کنیم\n    const tableBody = elements.bookTable;\n    \n    const tr = document.createElement('tr');\n\n    // نام کتاب\n    const tdName = document.createElement('td');\n    tdName.textContent = book.title;\n    tdName.className = CLASSES.NAME;\n\n    // نویسنده (اضافه شده)\n    const tdAuthor = document.createElement('td');\n    tdAuthor.textContent = book.author;\n    tdAuthor.className = CLASSES.TD;\n\n    // تعداد\n    const tdQuantity = document.createElement('td');\n    tdQuantity.textContent = book.quantity;\n    tdQuantity.className = CLASSES.TD;\n\n    // قیمت\n    const tdPrice = document.createElement('td');\n    tdPrice.textContent = book.price;\n    tdPrice.className = CLASSES.TD;\n\n    // ID\n    const tdId = document.createElement('td');\n    tdId.textContent = book.id || '---';\n    tdId.className = CLASSES.TD;\n\n    // دکمه‌های عملیات\n    const tdActions = document.createElement('td');\n    tdActions.className = 'px-6 py-4 whitespace-nowrap flex';\n\n    const editBtn = document.createElement('button');\n    editBtn.innerHTML = '<img src=\"assets/edit.svg\" alt=\"ویرایش\">';\n    editBtn.className = 'mx-4 bg-transparent border-none';\n\n    const deleteBtn = document.createElement('button');\n    deleteBtn.innerHTML = '<img src=\"assets/trash.svg\" alt=\"حذف\">';\n    deleteBtn.className = 'bg-transparent border-none';\n\n    tdActions.append(editBtn, deleteBtn);\n    \n    // اضافه کردن تمام سلول‌ها به ردیف\n    tr.append(\n        tdName,\n        tdAuthor, // اضافه شده\n        tdQuantity,\n        tdPrice,\n        tdId,\n        tdActions\n    );\n\n    // اضافه کردن ردیف به جدول (فقط یک بار)\n    tableBody.appendChild(tr);\n    \n    console.log('ردیف با موفقیت اضافه شد:', tr);\n    console.log('محتویات جدول:', tableBody.innerHTML);\n}",
+    "author": "دئددذ دذ دذ ذتذت",
+    "price": "55",
+    "quantity": "4"
+  },
+  {
+    "id": "09931b78-fc2c-4011-8d7f-5371d1f52bfc",
+    "title": "ومریروم",
+    "summary": "طئئطئط",
+    "author": "ئطئطئط",
+    "price": "54",
+    "quantity": "6"
+  },
+  {
+    "id": "d5156736-ca99-4e7c-ade4-4f6fc1a4dd18",
+    "title": "ggj",
+    "summary": "ggj",
+    "author": "ggj",
+    "price": "\\",
+    "quantity": "44"
+  },
+  {
+    "id": "8d987732-9d4d-4fc3-9894-0eaf6f79269e",
+    "title": "ترددتریدر",
+    "summary": "دیتیزدتیز",
+    "author": "تینتب",
+    "price": "555",
+    "quantity": "2525"
+  },
+  {
+    "id": "e0504bb3-41ac-4e25-a149-3e2ed039db7f",
+    "title": "وویوی",
+    "summary": "تیتیتی",
+    "author": "یتتیت",
+    "price": "55",
+    "quantity": "66"
+  },
+  {
+    "id": "4bb1bc17-fd78-4d3f-ab30-a9de64c775cc",
+    "title": "lll",
+    "summary": "ll",
+    "author": ",,",
+    "price": "5",
+    "quantity": "4"
+  },
+  {
+    "id": "2a590107-5656-4528-a5e0-1151c18567b0",
+    "title": "mm",
+    "summary": "mm",
+    "author": "mm",
+    "price": "5",
+    "quantity": "1"
+  },
+  {
+    "id": "fcd2ebb1-029b-42bd-82d7-9be625f40127",
+    "title": "mmm",
+    "summary": "mmm",
+    "author": "mmm",
+    "price": "4",
+    "quantity": "1"
+  },
+  {
+    "id": "1fb20f8f-aef9-4da7-a677-0c7436b517a7",
+    "title": ",",
+    "summary": "/",
+    "author": "m",
+    "price": "5",
+    "quantity": "1"
+  },
+  {
+    "id": "bf80c421-cc08-4124-b630-760e92fc1009",
+    "title": "سس",
+    "summary": "ی",
+    "author": "ی",
+    "price": "7",
+    "quantity": "7"
+  },
+  {
+    "id": "363b23e0-6bfb-4dda-a4a5-d77ac5e6c285",
+    "title": "شش",
+    "summary": "شش",
+    "author": "ششش",
+    "price": "65",
+    "quantity": "7"
+  },
+  {
+    "id": "cbef8b0e-0653-4c35-93b9-a805f3ff8362",
+    "title": "ش",
+    "summary": "ش",
+    "author": "ش",
+    "price": "2",
+    "quantity": "20"
+  },
+  {
+    "id": "54d82834-da96-47e4-af9c-e0608721b92a",
+    "title": "کوری",
+    "summary": "fff",
+    "author": "fff",
+    "price": "f2",
+    "quantity": "6"
+  },
+  {
+    "id": "6d12ddba-375a-4b90-b9c8-c4c1d2dffebd",
+    "title": "ss",
+    "summary": "c",
+    "author": "ss",
+    "price": "2",
+    "quantity": "1"
   }
 ]

@@ -125,7 +125,7 @@ const handleSubmit = async (event) => {
       }
       
       TokenService.setToken(data.token);
-      // window.location.href = '/src/ProductsList.html';
+      window.location.href = '/src/ProductsList.html';
       // console.log('Token:', data.token);
       alert("ورود شما با موفقیت انجام شد!");
       
